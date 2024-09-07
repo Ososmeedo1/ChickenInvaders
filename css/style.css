@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(../images/Space.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.chicken img {
+  width: 100px;
+  padding: 15px 0 0 0;
+}
+
+.rocket {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.rocket img {
+  width: 100px;
+}
+
+.bullet {
+  position: absolute; 
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
